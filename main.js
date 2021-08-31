@@ -36,7 +36,7 @@ console.log(instMadera.atacar());
 console.log(instMadera);
 
 
-// const espada = {
+// const espada = {+
 //     ataque :30,
 //     diametro : "30cm",
 //     efecto : undefined,
