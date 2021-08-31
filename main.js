@@ -40,11 +40,11 @@ class espada{
         return this.ataque;
     }
 }
-class espadaHielo extends espada{
+class espadaMadera extends espada{
     constructor(arg){
         super(arg);
-        this.vida = "+30";
-        this.efecto = "Congelado";
+        this.vida = "+100";
+        this.efecto = "Entrenar";
         this.ataque+=10;
     }
     atacar(){
@@ -54,17 +54,17 @@ class espadaHielo extends espada{
 
 
 let data = {
-    ataque:30,
-    diametro: "30cm",
+    ataque:120,
+    diametro: "50 centimetros",
     efecto: undefined
 }
 const inst = new espada(data);
 console.log(inst.atacar());
 console.log(inst);
 
-const instHielo = new espadaHielo(data);
-console.log(instHielo.atacar());
-console.log(instHielo);
+const instMadera = new espadaMadera(data);
+console.log(instMadera.atacar());
+console.log(instMadera);
 
 
 
