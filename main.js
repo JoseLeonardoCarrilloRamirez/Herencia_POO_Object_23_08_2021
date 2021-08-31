@@ -43,7 +43,7 @@ class espada{
 class espadaMadera extends espada{
     constructor(arg){
         super(arg);
-        this.vida = "+100";
+        this.vida = "+120";
         this.efecto = "Entrenar";
         this.ataque+=10;
     }
