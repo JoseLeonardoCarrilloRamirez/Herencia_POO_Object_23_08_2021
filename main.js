@@ -1,35 +1,4 @@
 
-
-
-// const espada = {
-//     ataque :30,
-//     diametro : "30cm",
-//     efecto : undefined,
-//     atacar(){
-//         return this.ataque;
-//     }
-// }
-
-// const espadaHielo = Object.create(espada);
-// Object.defineProperties(espadaHielo,{
-//                         "vida":{
-//                             value: "+30",
-//                             enumerable: true
-//                         },
-//                         "efecto":{
-//                             value: "Congelar",
-//                             enumerable: true
-//                         },
-//                         "ataque":{
-//                             value: espada.ataque += 10,
-//                             enumerable: true
-//                         }
-// });
-// espadaHielo.atacar = function(){
-//     return `${this.ataque} MOD ${this.efecto} y ${this.vida} vida`;
-// }
-// console.log(espada.atacar());
-
 class espada{
     constructor(arg){
         for(let [id, value] of Object.entries(arg)){
@@ -67,4 +36,32 @@ console.log(instMadera.atacar());
 console.log(instMadera);
 
 
+// const espada = {
+//     ataque :30,
+//     diametro : "30cm",
+//     efecto : undefined,
+//     atacar(){
+//         return this.ataque;
+//     }
+// }
+
+// const espadaHielo = Object.create(espada);
+// Object.defineProperties(espadaHielo,{
+//                         "vida":{
+//                             value: "+30",
+//                             enumerable: true
+//                         },
+//                         "efecto":{
+//                             value: "Congelar",
+//                             enumerable: true
+//                         },
+//                         "ataque":{
+//                             value: espada.ataque += 10,
+//                             enumerable: true
+//                         }
+// });
+// espadaHielo.atacar = function(){
+//     return `${this.ataque} MOD ${this.efecto} y ${this.vida} vida`;
+// }
+// console.log(espada.atacar());
 
